@@ -1,9 +1,9 @@
 import React from "react";
-import reelup from "../assets/reelup.svg";
-import reeldown from "../assets/reeldown.svg";
-import leftcam from "../assets/leftcam.svg";
-import rightcam from "../assets/rightcam.svg";
-import Highlightsbg from "../assets/Highlightsbg.svg";
+import reelup from "/images/reelup.svg";
+import reeldown from "/images/reeldown.svg";
+import leftcam from "/images/leftcam.svg";
+import rightcam from "/images/rightcam.svg";
+import Highlightsbg from "/images/Highlightsbg.svg";
 import { useTransform, useScroll, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Lenis from "@studio-freight/lenis";

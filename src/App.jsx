@@ -1,15 +1,19 @@
 import Highlights from "./components/Highlights"
-import NextComp from "./components/NextComp"
+import Announcement from "./components/Announcement";
+import About from './components/About';
+import Footer from "./components/Footer";
+
 
 
 function App() {
 
   return (
     <>
+      
+      <Announcement/>
       <Highlights></Highlights>
-      <NextComp/>
-      
-      
+      <About />
+      <Footer/>
     </>
   )
 }

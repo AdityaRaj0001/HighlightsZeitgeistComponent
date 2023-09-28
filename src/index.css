@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
 
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,6 +14,13 @@
 html,body{
   width:100%;
   height:100%;
+}
+.font-custom2{
+  font-family: 'Jost',sans-serif;
+}
+
+.font-custom1 {
+  font-family: 'Grenze Gotisch', cursive !important;
 }
 
 .highlights{
@@ -67,6 +76,16 @@ html,body{
   .gallery{
     height:132vh;
   }
+  .Column{
+    width:20%;
+    border: 12px ridge  rgba(114, 62, 48, 0.60);
+    background: rgba(114, 62, 48, 0.60);
+  }
 
 
 } 
+
+
+
+
+
