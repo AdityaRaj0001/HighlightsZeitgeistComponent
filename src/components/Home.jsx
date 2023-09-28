@@ -11,7 +11,6 @@ import Navbar from './Navbar/Navbar'
 function Home() {
   return (
     <div className='home w-screen overflow-hidden relative'>
-    <Navbar/>
       <img className="b1 absolute z-9" src={bg} />
       <img className="rays absolute z-10" src={rays} />
       <div className='big-logo z-100 absolute top-40 w-screen flex flex-col justify-center items-center'><img className="h-100 z-120" src={big_logo} /></div>
