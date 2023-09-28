@@ -1,7 +1,24 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;500&family=Jost&display=swap');
 
+.home {
+  background: var(--dark2, #A3724F);
+  flex-shrink: 0;
+  height: 980px;
+}
 
+.bg1 {
+  opacity: 0.8;
+  background: url(<path-to-image>), lightgray -485.236px -318px / 156.162% 154.733% no-repeat;
+  mix-blend-mode: lighten;
+  top:0;
+}
+
+.rays {
+  fill: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.11) 33.35%, rgba(255, 255, 255, 0.28) 64.79%, rgba(255, 255, 255, 0.56) 100%);
+  opacity: 0.8;
+  mix-blend-mode: soft-light;
+  top: -147px;
+}
 
 
 .Announcements {
@@ -221,18 +238,19 @@
     height: 100vh;
   } */
 
-  
-/* 
+
+  /* 
   .announcements-container {
     height: 100vh;
     width: 100vw;
 
   } */
-  .bgimg{
-    height:100%;
+  .bgimg {
+    height: 100%;
   }
-  .recFrame{
-    display:none
+
+  .recFrame {
+    display: none
   }
 
   .heading-container {
@@ -251,7 +269,7 @@
   .rightmegaphone,
   .leftmegaphone {
     width: 50px;
-    top:3%;
+    top: 3%;
   }
 
 
